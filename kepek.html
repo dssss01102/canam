@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Képek</title>
+    <link rel="stylesheet" href="kepek.css" />
+    <link rel="icon" type="image/png" href="favicon-32x32.webp" />
+    <meta name="description" content="can-am quadok bemutatása" />
+    <meta name="keywords" content="can-am, canam, brp" />
+    <meta name="author" content="gyrdni" />
+    <meta name="robots" content="index, follow" />
+    <link
+      rel="alternate"
+      media="only screen and (max-width: 640px)"
+      href="mobilkepek"
+    />
+    <meta name="handheld-friendly" content="true" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-touch-startup-image" content="indexikon.jpg" />
+    <meta name="google-adsense-account" content="ca-pub-6554342978402283" />
+    <script
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6554342978402283"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="header-content">
+        <a href="canam" class="back-link"
+          ><img src="vissza1.png" alt="Vissza"
+        /></a>
+        <h1>Képek</h1>
+      </div>
+    </header>
+
+    <!-- popup -->
+    <div class="popup">
+      <!-- top bar -->
+      <div class="top-bar">
+        <p class="image-name">kép.png</p>
+        <img src="close.png" alt="close" class="close-btn" />
+      </div>
+      <!-- arrows -->
+      <button class="arrow-btn left-arrow">
+        <img src="arrow.png" alt="nyil" />
+      </button>
+      <button class="arrow-btn right-arrow">
+        <img src="arrow.png" alt="nyil" />
+      </button>
+      <!-- image -->
+      <img src="canam1.jpg" class="large-image" alt="nagy" />
+      <!-- image-index -->
+      <h1 class="index">Képek</h1>
+    </div>
+
+    <div class="gallery">
+      <div class="gallery-image">
+        <img src="canam1.jpg" alt="1" class="image" />
+      </div>
+      <div class="gallery-image">
+        <img src="canam2.jpg" alt="x2" class="image" />
+      </div>
+      <div class="gallery-image">
+        <img src="canam3.jpg" alt="x3" class="image" />
+      </div>
+      <div class="gallery-image">
+        <img src="canam4.jpg" alt="x4" class="image" />
+      </div>
+      <div class="gallery-image">
+        <img src="canam5.jpg" alt="x5" class="image" />
+      </div>
+      <div class="gallery-image">
+        <img src="canam6.jpg" alt="x6" class="image" />
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+    <script>
+      // Ellenőrzi, hogy a felhasználó mobilról nézi-e az oldalt
+      if (
+        /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+          navigator.userAgent
+        )
+      ) {
+        window.location.href = "mobilkepek"; // Átirányítás mobil eszközök esetén
+      }
+    </script>
+  </body>
+</html>

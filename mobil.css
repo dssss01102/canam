@@ -1,0 +1,197 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+ul li a {
+  display: block;
+  padding: 2px 2px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 16px;
+}
+ul li ul.dropdown li {
+  display: block;
+  background: #333;
+  margin: 6px 5px;
+}
+ul li ul.dropdown {
+  width: auto;
+  background: #333;
+  position: absolute;
+  z-index: 999;
+  right: -1px;
+  display: none;
+  border: black solid 2px;
+}
+ul li a:hover {
+  background: #222;
+}
+ul li:hover ul.dropdown {
+  display: block;
+}
+
+/* Clearfix */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #333333;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  max-height: 50px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-flex;
+  margin-left: 5px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #0e1791; /* Például sárga szín a hover hatáshoz */
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #333;
+}
+
+ul {
+  list-style-type: square;
+}
+
+#gallery {
+  text-align: center;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.image-containeralso {
+  display: grid;
+  margin: 5px;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+button {
+  border-radius: 5px;
+}
+#header {
+  text-align: left;
+  padding: 2px;
+  margin: 5px;
+}
+button.hover-effect {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #34444e;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.7s ease; /* Átmenet a háttérszín változásához */
+}
+
+/* Hover hatás: amikor az egérmutatót a gombra mozgatjuk */
+button.hover-effect:hover {
+  background-color: #005092; /* Változtasd meg a háttérszínt hover alatt */
+}
+#startimg {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+  filter: none;
+}
+
+#kep {
+  color: #005092;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  padding: 2px;
+}
+
+/* hower button tortenelem*/
+.bn632-hover {
+  width: 160px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 55px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.bn632-hover:hover {
+  background-position: 100% 0;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.bn632-hover:focus {
+  outline: none;
+}
+
+.bn632-hover.bn25 {
+  background-image: linear-gradient(
+    to right,
+    #29323c,
+    #485563,
+    #2b5876,
+    #4e4376
+  );
+  box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+}

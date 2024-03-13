@@ -1,0 +1,63 @@
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo img {
+  max-height: 50px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-flex;
+  margin-left: 5px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* chatgpt*/
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  text-align: center;
+}
+
+#icon {
+  height: 40px;
+}
+.tortenet {
+  text-align: center;
+  position: relative;
+  font-family: "Arial", sans-serif;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+.custom-list {
+  color: #f8f8f8;
+}
+a {
+  color: rgb(42, 0, 196); /* A link színe zöldre változik */
+  text-decoration: none; /* Az aláhúzás eltűnik */
+}
+
+a:hover {
+  color: red; /* A link színe pirosra változik, amikor rámutatsz */
+  text-decoration: underline; /* Aláhúzás megjelenik, amikor rámutatsz */
+}

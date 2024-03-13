@@ -1,0 +1,228 @@
+/* header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  max-height: 50px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-flex;
+  margin-left: 5px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* chatgpt*/
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  flex-direction: column;
+}
+
+.box {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.box:hover {
+  transform: translateY(-5px);
+}
+
+.box img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.box h2 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.box a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* proba */
+.model-title {
+  text-align: center;
+}
+
+.models {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.small-box {
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  display: flex;
+  white-space: wrap;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 14px;
+}
+/* proba*/
+
+.small-box:hover {
+  transform: scale(1.2) rotate(-1deg);
+  transition: all 0.4s;
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.small-box img {
+  width: 100px; /* Kép szélessége */
+  height: auto;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+}
+
+.small-box h2 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.small-box a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*proba prt2 */
+.intro {
+  position: relative;
+  height: 300px;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("canamintro.avif");
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
+}
+
+.intro-content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 20px;
+  color: #000;
+  background-color: rgba(255, 255, 255, 0.7); /* Fehér, félig átlátszó háttér */
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+footer p {
+  text-decoration: none; /* Aláhúzás eltávolítása */
+}
+.tortenet {
+  text-align: center;
+}
+.tura {
+  text-align: center;
+}
+#tour-kepek {
+  display: inline;
+  justify-content: center; /* A tartalmat középre igazítja */
+  align-items: center; /* A tartalmat középre igazítja */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  flex-direction: column;
+}
+/* hower button tortenelem*/
+.bn632-hover {
+  width: 160px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 55px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.bn632-hover:hover {
+  background-position: 100% 0;
+  transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.bn632-hover:focus {
+  outline: none;
+}
+
+.bn632-hover.bn25 {
+  background-image: linear-gradient(
+    to right,
+    #29323c,
+    #485563,
+    #2b5876,
+    #4e4376
+  );
+  box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+}
